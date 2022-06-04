@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    namespace:名称空间
+-->
+<mapper namespace="com.itheima.mapper.UserMapper">
+
+    <!-- statement -->
+    <select id="selectAll" resultType="User">
+        select * from tb_user;
+    </select>
+
+
+    <!--<select id="selectById" resultType="User">
+        select *
+        from tb_user where id = #{id};
+    </select>-->
+
+
+    <select id="select" resultType="user">
+        select *
+        from tb_user
+        where
+            username = #{username}
+          and password = #{password}
+    </select>
+
+    <!--<select id="select" resultType="user">
+        select *
+        from tb_user
+        where
+            username = #{username}
+          and password = #{param2}
+    </select>-->
+
+    <!--<select id="select" resultType="user">
+        select *
+        from tb_user
+        where
+            username = #{param1}
+        and password = #{param2}
+    </select>-->
+
+</mapper>

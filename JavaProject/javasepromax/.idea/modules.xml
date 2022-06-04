@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day01-oop-demo/day01-oop-demo.iml" filepath="$PROJECT_DIR$/day01-oop-demo/day01-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-oop-demo/day02-oop-demo.iml" filepath="$PROJECT_DIR$/day02-oop-demo/day02-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-oop-demo/day03-oop-demo.iml" filepath="$PROJECT_DIR$/day03-oop-demo/day03-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-api-demo/day04-api-demo.iml" filepath="$PROJECT_DIR$/day04-api-demo/day04-api-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-collection-demo/day05-collection-demo.iml" filepath="$PROJECT_DIR$/day05-collection-demo/day05-collection-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-collection2-map-demo/day06-collection2-map-demo.iml" filepath="$PROJECT_DIR$/day06-collection2-map-demo/day06-collection2-map-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-stream-exception-log-demo/day07-stream-exception-log-demo.iml" filepath="$PROJECT_DIR$/day07-stream-exception-log-demo/day07-stream-exception-log-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-logback-demo/day08-logback-demo.iml" filepath="$PROJECT_DIR$/day08-logback-demo/day08-logback-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-movie-buy-app/day08-movie-buy-app.iml" filepath="$PROJECT_DIR$/day08-movie-buy-app/day08-movie-buy-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09-file-recursion-io-demo/day09-file-recursion-io-demo.iml" filepath="$PROJECT_DIR$/day09-file-recursion-io-demo/day09-file-recursion-io-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10-io2-demo/day10-io2-demo.iml" filepath="$PROJECT_DIR$/day10-io2-demo/day10-io2-demo.iml" />
+    </modules>
+  </component>
+</project>
