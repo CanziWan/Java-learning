@@ -1,0 +1,16 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper-->
+<!--        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+
+<!--<mapper namespace="com.example.flashsale.mapper.UserMapper">-->
+
+<!--    &lt;!&ndash; 定义 ResultMap &ndash;&gt;-->
+<!--    <resultMap id="UserResultMap" type="com.example.flashsale.model.User">-->
+<!--        <result column="id" property="id"/>-->
+<!--        <result column="name" property="name"/>-->
+<!--        <result column="balance" property="balance"/>-->
+<!--        <result column="user_type" property="userType"/>-->
+<!--    </resultMap>-->
+
+<!--</mapper>-->

@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.198.128:3306/flash_sale_db?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    redis:
+      host: 192.168.198.128  # 远程 Redis 服务器的 IP 地址
+      port: 6379             # Redis 服务的端口号
+      timeout: 6000ms        # 超时时间，单位为毫秒
+      lettuce:
+        pool:
+          max-active: 8      # 最大活跃连接数（连接池设置）
+          max-idle: 8        # 最大空闲连接数
+          min-idle: 0        # 最小空闲连接数
+  mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.example.flashsale.model
+    configuration:
+      map-underscore-to-camel-case: true
+
