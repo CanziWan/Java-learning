@@ -1,2 +1,2 @@
 # Java-learning
-Java learning notes
+Java learning notes.
